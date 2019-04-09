@@ -1,0 +1,10 @@
+virtual vs pure virtual
+
+virtual: base class implement the function, derived class can override the function if needed but does not have to. Virtual 
+functions called through base class pointers/references will be resolved at run-time. That is, the dynamic type of the object
+is used instead of its static type:
+
+pure virtual: an interface, base class provides an interface and must be implemented by derived class, or the derived class
+becomes abstract too.
+
+Reference URL: https://stackoverflow.com/questions/2652198/difference-between-a-virtual-function-and-a-pure-virtual-function
